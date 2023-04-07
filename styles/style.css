@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: #a1a1a1;
+  background-color: rgb(101, 216, 242);
+}
+.main .container-sm {
+  background-color: rgb(50, 51, 55);
+  padding: 30px;
+  border-radius: 10px;
+}
+.main .container-sm .container-grid {
+  display: grid;
+}
+.main .container-sm .container-grid label {
+  margin-bottom: 10px;
+}
+.main .container-sm .container-grid .caixa {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.main .container-sm .container-grid .botao {
+  color: #000;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 50%;
+  justify-self: center;
+}
+.main .container-sm .container-grid .botao:hover {
+  background-color: rgb(50, 51, 55);
+  color: #fff;
+}
+.main .container-sm .container-grid .resultado {
+  margin-top: 30px;
+  text-align: start;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
