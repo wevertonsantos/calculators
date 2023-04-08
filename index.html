@@ -13,6 +13,14 @@
     >
 </head>
 <body>
+    <header>
+        <nav class="header">
+            <ul class="header__lista">
+                <li class="item"><a href="index.html">Calcular IMC</a></li>
+                <li class="item"><a href="/">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="main">
             <div class="container_fluid">
@@ -34,11 +42,44 @@
             </div>
         </div>
         <section class="conteudo">
-            <h1>Cálculo IMC</h1>
             <div class="conteudo__imc">
-                <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
-                <p>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
-                <p>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
+                <div>
+                    <h2>Cálculo IMC</h2>
+                    <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
+                    <p>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+                    <p>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>    
+                </div>
+                <div class="conteudo__inter">
+                    <h2>Veja a interpretação do IMC</h2>
+                    <div class="container_fluid">
+                        <div class="row">
+                            <div class="col">
+                                <h3>IMC</h3>
+                                <p>MENOR QUE 18,5</p>
+                                <p>ENTRE 18,5 E 24,9</p>
+                                <p>ENTRE 25,0 E 29,9</p>
+                                <p>ENTRE 30,0 E 39,9</p>
+                                <p>MAIOR QUE 40,0</p>
+                            </div>
+                            <div class="col">
+                                <h3>CLASSIFICAÇÃO</h3>
+                                <p>MAGREZA</p>
+                                <p>NORMAL</p>
+                                <p>SOBREPESO</p>
+                                <p>OBESIDADE</p>
+                                <p>OBESIDADE GRAVE</p>
+                            </div>
+                            <div class="col obesidade">
+                                <h3>OBESIDADE(Grau)</h3>
+                                <p>0</p>
+                                <p>0</p>
+                                <p>I</p>
+                                <p>II</p>
+                                <p>III</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             </section>
     </main>

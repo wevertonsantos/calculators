@@ -1,0 +1,25 @@
+.header{
+    height: 8vh;
+    background-color: rgb(50, 51, 55);
+    box-shadow: 10px 5px 30px #000;
+
+    &__lista{
+        display: flex;
+        align-items: center;
+
+        .item{
+            margin: 5px 10px;
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 28px;
+
+                &:hover{
+                    border-top: 1px solid #fff;
+                }
+            }
+        }
+    }
+}

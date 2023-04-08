@@ -52,8 +52,48 @@ body {
 
 .conteudo {
   padding: 20px 10px;
+  width: 100%;
 }
 .conteudo__imc {
   margin-top: 50px;
   width: 50%;
+}
+.conteudo__imc h2 {
+  margin-bottom: 10px;
+}
+.conteudo__inter {
+  margin-top: 50px;
+}
+.conteudo__inter h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.conteudo .col h3 {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.conteudo .col p {
+  margin-bottom: 10px;
+}
+
+.header {
+  height: 8vh;
+  background-color: rgb(50, 51, 55);
+  box-shadow: 10px 5px 30px #000;
+}
+.header__lista {
+  display: flex;
+  align-items: center;
+}
+.header__lista .item {
+  margin: 5px 10px;
+  list-style: none;
+}
+.header__lista .item a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 28px;
+}
+.header__lista .item a:hover {
+  border-top: 1px solid #fff;
 }/*# sourceMappingURL=style.css.map */
