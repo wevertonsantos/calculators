@@ -1,23 +1,34 @@
 .header{
-    height: 8vh;
-    background-color: rgb(50, 51, 55);
-    box-shadow: 10px 5px 30px #000;
+    height: 10vh;
+    background-color: $cor-azul;
+    display: flex;
+    align-items: center;
+    color: $cor-branca;
+
+    h1{
+        color: $cor-azul;
+        background-color: $cor-branca;
+        padding: 0px 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
 
     &__lista{
         display: flex;
-        align-items: center;
+        padding: 0;
+        margin: 0;
 
         .item{
-            margin: 5px 10px;
+            margin: 0 10px;
             list-style: none;
 
             a{
                 text-decoration: none;
-                color: #ffffff;
-                font-size: 28px;
+                color: #efefef;
+                font-size: 18px;
 
                 &:hover{
-                    border-top: 1px solid #fff;
+                    color: $cor-branca;
                 }
             }
         }

@@ -1,10 +1,14 @@
 .conteudo{
     padding: 20px 10px;
     width: 100%;
+    background-color: $cor-verde;
+    color: $cor-branca;
 
     &__imc{
         margin-top: 50px;
-        width: 50%;
+        padding: 0 300px;
+        justify-content: center;
+        text-align: center;
 
         h2{
             margin-bottom: 10px;
