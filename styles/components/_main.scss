@@ -9,7 +9,7 @@
     background: linear-gradient(to bottom, $cor-azul, $cor-verde);
 
     .container-sm{
-        background-color: rgb(50, 51, 55);
+        background-color: $cor-fundo-calculadora;
         padding: 30px;
         border-radius: 10px;
         box-shadow: 30px 10px 100px #000;

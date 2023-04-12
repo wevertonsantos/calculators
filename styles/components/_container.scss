@@ -3,4 +3,66 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(to bottom, $cor-azul, $cor-verde);
+
+    .calculadora{
+        background-color: $cor-fundo-calculadora;
+        border-radius: 10px;
+        height: 90vh;
+        width: 500px;
+        padding: 20px;
+
+        .tela{
+            border: 1px solid $cor-branca;
+            margin: 1px;
+            height: 80px;
+            color: $cor-branca;
+     
+
+            .numero-inicial{
+                text-align: end;
+                font-size: 64px;
+            }
+        }
+
+        .col{
+            cursor: pointer;
+            text-align: center;
+            background-color: $cor-fundo-botao;
+            color: $cor-fundo-calculadora;
+            margin: 10px 10px;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 32px;
+        }
+
+        .col:hover{
+            background-color: $cor-branca;
+        }
+
+        .primeiro-conjunto{
+            color: $cor-branca;
+
+            .CE{
+                background-color: $cor-azul;
+            }
+
+            .C{
+                background-color: $cor-verde;
+            }
+        }
+
+        .quarto-conjunto{
+
+            .resposta{
+                background-color: #f2a3a3;
+            }
+
+            .resposta:hover{
+                background-color: #f65656;
+            }
+        }
+
+    }
 }
+
