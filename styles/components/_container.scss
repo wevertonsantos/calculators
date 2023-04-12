@@ -40,6 +40,10 @@
             background-color: $cor-branca;
         }
 
+        .col:active{
+            background-color: $cor-fundo-botao; 
+        }
+
         .primeiro-conjunto{
             color: $cor-branca;
 
@@ -47,8 +51,16 @@
                 background-color: $cor-azul;
             }
 
+            .CE:active{
+                background-color: $cor-fundo-botao;
+            }
+
             .C{
                 background-color: $cor-verde;
+            }
+
+            .C:active{
+                background-color: $cor-fundo-botao;
             }
         }
 
@@ -60,6 +72,10 @@
 
             .resposta:hover{
                 background-color: #f65656;
+            }
+
+            .resposta:active{
+                background-color: $cor-fundo-botao;
             }
         }
 
