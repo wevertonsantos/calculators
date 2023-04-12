@@ -21,7 +21,7 @@ buttonCalculo.addEventListener('click', (e) => {
     const peso = parseFloat(inputPeso.value)
     const resultado = peso / (Math.pow(altura,2))
 
-    textResultado.innerHTML += `${resultado.toFixed(2)}`
+    textResultado.innerHTML = `Seu IMC: ${resultado.toFixed(2)}`
 
 })
 
