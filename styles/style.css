@@ -160,11 +160,17 @@ body {
 .container-calculadora .calculadora .primeiro-conjunto .CE {
   background-color: rgb(79, 150, 241);
 }
+.container-calculadora .calculadora .primeiro-conjunto .CE:hover {
+  background-color: rgb(60, 115, 187);
+}
 .container-calculadora .calculadora .primeiro-conjunto .CE:active {
   background-color: #e8e7e7;
 }
 .container-calculadora .calculadora .primeiro-conjunto .C {
   background-color: #3fa6af;
+}
+.container-calculadora .calculadora .primeiro-conjunto .C:hover {
+  background-color: #287178;
 }
 .container-calculadora .calculadora .primeiro-conjunto .C:active {
   background-color: #e8e7e7;

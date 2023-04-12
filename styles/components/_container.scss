@@ -51,12 +51,20 @@
                 background-color: $cor-azul;
             }
 
+            .CE:hover{
+                background-color: rgb(60, 115, 187);
+            }
+
             .CE:active{
                 background-color: $cor-fundo-botao;
             }
 
             .C{
                 background-color: $cor-verde;
+            }
+
+            .C:hover{
+                background-color: #287178;
             }
 
             .C:active{
