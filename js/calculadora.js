@@ -1,7 +1,15 @@
 // variáveis com os botões
 
+const botaoCE = document.querySelector('.CE')
+const botaoC = document.querySelector('.C')
 const respostaTela = document.querySelector('.numero-inicial')
 const numeros = document.querySelectorAll('.numeros')
+
+// zerando calculadora
+
+botaoC.addEventListener('click', () => {
+    respostaTela.innerHTML = 0
+})
 
 // mostrando numero inicial na tela
 
