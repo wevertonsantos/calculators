@@ -1,8 +1,10 @@
-<p> Páginas com calculadoras (IMC está pronta) </p>
+<h1> Páginas com calculadoras </h1>
 
-<h2> <ul><li> O que foi usado no desenvolvimento do site? </li></ul></h2>
+<h3>Objetivo do projeto:</h3>
 
-<p>Techs:</p>
+<p>Website para clientes realizarem suas consultas IMC e fazer cálculos matemáticos através de uma calculadora convencional mas com design clean</p>
+
+<h3> <ul><li> Tecnologias utilizadas para o desenvolvimento do projeto </li></ul></h3>
 
 <ul>
   <li>HTML</li>
@@ -10,5 +12,5 @@
   <li>Javascript</li>
 </ul>
 
-## Páginas para visualizar o site:
+## Deploy da aplicação para visualização do projeto e utilização do mesmo:
 https://calculators-eight.vercel.app/
