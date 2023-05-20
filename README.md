@@ -12,7 +12,7 @@
   <li>Calculadora padrão</li>
 </ul>
 
-<h3> <ul><li> Tecnologias utilizadas para o desenvolvimento do projeto </li></ul></h3>
+<h3> Tecnologias utilizadas para o desenvolvimento do projeto: </h3>
 
 <ul>
   <li>HTML</li>
