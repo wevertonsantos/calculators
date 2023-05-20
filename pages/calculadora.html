@@ -27,7 +27,7 @@
             <div class="container_fluid">
                 <div class="container-md calculadora">
                     <div class="row tela">
-                        <h1 class="numero-inicial"></h1>
+                        <h1 id="numero-inicial" class="numero-inicial"></h1>
                     </div>
                     <div class="row primeiro-conjunto">
                         <div id="7" class="col numeros">7</div>
@@ -40,19 +40,18 @@
                         <div id="4" class="col numeros">4</div>
                         <div id="5" class="col numeros">5</div>
                         <div id="6" class="col numeros">6</div>
-                        <div id="" class="col divisao">/</div>
-                        <div id="" class="col multiplicar">*</div>
+                        <div id="/" class="col divisao operadores">/</div>
+                        <div id="*" class="col multiplicar operadores">*</div>
                     </div>
                     <div class="row terceiro-conjunto">
                         <div id="1" class="col numeros">1</div>
                         <div id="2" class="col numeros">2</div>
                         <div id="3" class="col numeros">3</div>
-                        <div class="col subtrair">-</div>
-                        <div class="col soma">+</div>
+                        <div id="-" class="col subtrair operadores">-</div>
+                        <div id="+" class="col soma operadores">+</div>
                     </div>
                     <div class="row quarto-conjunto">
                         <div id="0" class="col numeros">0</div>
-                        <div class="col ponto">.</div>
                         <div class="col resposta">=</div>
                     </div>
                 </div>

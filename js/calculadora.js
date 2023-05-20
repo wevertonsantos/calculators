@@ -2,25 +2,33 @@
 
 const botaoCE = document.querySelector('.CE')
 const botaoC = document.querySelector('.C')
-const respostaTela = document.querySelector('.numero-inicial')
+const numeroInicial = document.getElementById('numero-inicial')
 const numeros = document.querySelectorAll('.numeros')
+const operadores = document.querySelectorAll('.operadores')
 
 // zerando calculadora
 
 botaoC.addEventListener('click', () => {
-    respostaTela.innerHTML = 0
+    numeroInicial.innerText = ''
 })
-
-// mostrando numero inicial na tela
-
-respostaTela.innerHTML = 0
 
 // função mostrar números na tela
 
-const mostrarNumeros = () => {    
-    numeros.forEach(numero => numero.addEventListener('click',() => {
-        respostaTela.textContent += numero.id
-    }))
+const mostrarNaTela = () => {
+            numeros.forEach(numero => numero.addEventListener('click', () => {
+                    numeroInicial.innerText(numeroInicial.innerText += numero.id)
+            }))
+
+            operadores.forEach(operador => operador.addEventListener('click', () => {
+                numeroInicial.innerText(numeroInicial.innerText += operador.id)
+            }))
 }
 
-mostrarNumeros()
+// pegando números da tela
+
+const pegarNumeros = () => {
+    console.log()
+}
+
+mostrarNaTela()
+pegarNumeros()
