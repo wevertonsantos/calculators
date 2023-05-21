@@ -1,39 +1,29 @@
-// variáveis para pegar e mostrar o número na tela
+// pegando elemento tela
 
-const numeroNaTela = document.getElementById('numero-inicial')
-const pegarNumeroIncial = document.querySelector('.numero-inicial')
-const mostrarNumeroInicial = pegarNumeroIncial.innerText
+const tela = document.getElementById('banner-tela')
 
-// variáveis com os botões
+// variáveis com os botões de números, operadores e de reset
 
 const botaoCE = document.querySelector('.CE')
 const botaoC = document.querySelector('.C')
 const numeros = document.querySelectorAll('.numeros')
 const operadores = document.querySelectorAll('.operadores')
 
-// zerando calculadora
+// zerando calculadora ao clicar no botão
 
 botaoC.addEventListener('click', () => {
-    numeroInicial.innerText = ''
+    tela.innerText = ''
 })
 
-// função mostrar números na tela
+// função ao clicar nos botões exibir na tela
 
 const mostrarNaTela = () => {
             numeros.forEach(numero => numero.addEventListener('click', () => {
-                    numeroNaTela.innerText(numeroNaTela.innerText += numero.id)
-            }))
+                    tela.innerText += numero.firstChild.nodeValue
 
-            operadores.forEach(operador => operador.addEventListener('click', () => {
-                numeroNaTela.innerText(numeroNaTela.innerText += operador.id)
             }))
 }
 
-// pegando números da tela
-
-const pegarNumeros = () => {
-    console.log(mostrarNumeroInicial)
-}
+// mostrar os números na tela
 
 mostrarNaTela()
-pegarNumeros()
