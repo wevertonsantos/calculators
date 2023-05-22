@@ -15,15 +15,65 @@ botaoC.addEventListener('click', () => {
     tela.innerText = ''
 })
 
-// função ao clicar nos botões exibir na tela
+botaoCE.addEventListener('click', () => {
+    tela.innerText = ''
+})
 
-const mostrarNaTela = () => {
-            numeros.forEach(numero => numero.addEventListener('click', () => {
-                    tela.innerText += numero.firstChild.nodeValue
+// função para realizar cálculos
 
-            }))
+const calculadora = () => {
+    
+    pegandoOperadores()
+    exibirNumerosTela()
+    
 }
 
-// mostrar os números na tela
+// pegando operadores
 
-mostrarNaTela()
+const pegandoOperadores = () => {
+    operadores.forEach(operador => operador.addEventListener('click', () => {
+        const operadorCalculo = operador.firstChild.nodeValue
+        
+        if (operadorCalculo === '/'){
+            tela.innerText += operadorCalculo
+        }
+        if (operadorCalculo === '*'){
+            tela.innerText += operadorCalculo
+        }
+        if (operadorCalculo === '+'){
+            tela.innerText += operadorCalculo
+        }
+        if (operadorCalculo === '-'){
+            tela.innerText += operadorCalculo
+        }
+
+        if (operadorCalculo === '.'){
+            tela.innerText += operadorCalculo
+        }
+
+        resultado(operadorCalculo)
+
+    }))
+}
+
+// exibindo números na tela
+
+const exibirNumerosTela = () => {
+    numeros.forEach(numero => numero.addEventListener('click', () => {
+
+        tela.innerText += numero.firstChild.nodeValue
+
+    }))
+}
+
+// exibindo resultado
+
+const resultado = (operadorCalculo) => {
+    if(operadorCalculo === '='){
+        tela.innerText = eval(tela.innerText)
+    }
+}
+
+// calculadora
+
+calculadora()
